@@ -1,0 +1,6 @@
+{
+  "DATABASE_URL": "postgresql://neondb_owner:npg_5pWEIQxuLkM6@ep-lively-hat-admrjexy-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require",
+  "TOOL_AUTH_SECRET": "elevenlabs-tool-secret-change-in-production-abc123xyz789",
+  "PORT": "3001",
+  "NODE_ENV": "production"
+}

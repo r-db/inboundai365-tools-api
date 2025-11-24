@@ -10,8 +10,8 @@
 
 const express = require('express');
 const router = express.Router();
-const vectorSearch = require('../../services/ohmnic/vectorSearch');
-const llmPromptBuilder = require('../../services/ohmnic/llmPromptBuilder');
+const vectorSearch = require('../services/ohmnic/vectorSearch');
+const llmPromptBuilder = require('../services/ohmnic/llmPromptBuilder');
 const agentAuth = require('../middleware/agentAuth');
 
 /**
