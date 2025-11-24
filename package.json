@@ -1,13 +1,15 @@
 {
   "name": "inboundai365-tools-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "2.0.0",
+  "description": "Secure tools API microservice for ElevenLabs AI agent function calling",
+  "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["elevenlabs", "tools-api", "webhooks", "multi-tenant", "ai-agents"],
+  "author": "InboundAI365",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
