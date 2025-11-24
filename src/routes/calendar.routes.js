@@ -8,8 +8,8 @@
 
 const express = require('express');
 const router = express.Router();
-const pool = require('../../config/database');
-const agentAuth = require('../../middleware/agentAuth');
+const pool = require('../config/database');
+const agentAuth = require('../middleware/agentAuth');
 
 // Apply agent authentication middleware to all calendar tool routes
 // This resolves tenant_id from agent_id and injects req.tenantContext

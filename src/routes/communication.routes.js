@@ -8,8 +8,8 @@
 
 const express = require('express');
 const router = express.Router();
-const pool = require('../../config/database');
-const agentAuth = require('../../middleware/agentAuth');
+const pool = require('../config/database');
+const agentAuth = require('../middleware/agentAuth');
 const vonageService = require('../../services/vonage-service');
 
 // Apply agent authentication middleware to all communication tool routes
